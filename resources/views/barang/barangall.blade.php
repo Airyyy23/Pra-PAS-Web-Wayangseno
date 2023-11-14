@@ -7,10 +7,8 @@
         <tr>
           <th scope="col">No</th>
           <th scope="col">Nama Barang</th>
-          <th scope="col">Kategori</th>
           <th scope="col">Harga</th>
           <th scope="col">Stok</th>
-          <th scope="col">Tanggal Masuk</th>
           <th scope="col">Aksi</th>
         </tr>
       </thead>

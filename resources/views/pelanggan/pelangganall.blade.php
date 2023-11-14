@@ -7,10 +7,8 @@
         <tr>
           <th scope="col">No</th>
           <th scope="col">Nama Pelanggan</th>
-          <th scope="col">Alamat</th>
           <th scope="col">Email</th>
           <th scope="col">No. Hp</th>
-          <th scope="col">Tanggal Registrasi</th>
           <th scope="col">Aksi</th>
         </tr>
       </thead>
