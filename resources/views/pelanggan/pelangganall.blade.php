@@ -22,10 +22,8 @@
         <tr>
           <th scope="row">{{ $no++ }}</th>
           <td>{{ $pelanggan->nama_pelanggan }}</td>
-          <td>{{ $pelanggan->alamat }}</td>
           <td>{{ $pelanggan->email }}</td>
           <td>{{ $pelanggan->telepon }}</td>
-          <td>{{ $pelanggan->tanggal_registrasi }}</td>
           <td>
             <a href="/pelanggan/pelanggandetail/{{ $pelanggan->id }}" class="btn btn-primary">Detail</a>
             <a href="/pelanggan/pelangganedit/{{ $pelanggan->id }}" class="btn btn-warning">Edit</a>

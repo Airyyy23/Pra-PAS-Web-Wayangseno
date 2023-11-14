@@ -22,10 +22,8 @@
         <tr>
           <th scope="row">{{ $no++ }}</th>
           <td>{{ $item->nama_barang }}</td>
-          <td>{{ $item->kategori }}</td>
           <td>{{ 'Rp ' . number_format($item->harga, 0, ',', '.') }}</td>
           <td>{{ $item->stok }}</td>
-          <td>{{ \Carbon\Carbon::parse($item->tanggal_masuk)->format('d/m/Y') }}</td>
           <td>
             <a href="/barang/barangdetail/{{ $item->id }}" class="btn btn-primary">Detail</a>
             <a href="/barang/barangedit/{{ $item->id }}" class="btn btn-warning">Edit</a>
