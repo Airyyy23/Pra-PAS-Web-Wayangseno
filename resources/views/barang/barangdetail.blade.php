@@ -13,7 +13,7 @@
         </div>
         <div class="form-group">
             <label for="">Harga</label>
-            <input type="text" class="form-control" name="harga" id="harga" value="{{ $barang->harga }}" disabled>
+            <input type="text" class="form-control" name="harga" id="harga" value="{{ 'Rp ' . number_format($barang->harga, 0, ',', '.') }}" disabled>
         </div>
         <div class="form-group">
             <label for="">Stok</label>
