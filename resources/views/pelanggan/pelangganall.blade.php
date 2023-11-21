@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-   <h1>Data Barang</h1>
+   <h1>Data Pelanggan</h1>
    <table class="table table-info table-hover">
       <thead>
         <tr>
