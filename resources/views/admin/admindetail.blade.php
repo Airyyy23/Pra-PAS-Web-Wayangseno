@@ -19,6 +19,10 @@
             <label for="">No. Hp</label>
             <input type="text" class="form-control" name="telepon" id="telepon" value="{{ $admin->telepon }}" disabled>
         </div>
+        <div class="form-group">
+            <label for="">Tanggal Resgistrasi</label>
+            <input type="text" class="form-control" name="tanggal_registrasi" id="tanggal_registrasi" value="{{ $admin->tanggal_registrasi }}" disabled>
+        </div>
          <div class="text-center mt-5">
             <a href="/admin/adminall" class="btn btn-primary btn-lg">Kembali</a>
          </div>

@@ -33,6 +33,11 @@
             <input type="number" class="form-control" id="telepon" name="telepon" value="{{ $admin->telepon }}" required>
         </div>
 
+        <div class="mb-3">
+         <label for="tanggal_registrasi" class="form-label">Tanggal Registrasi</label>
+         <input type="date" class="form-control" id="tanggal_registrasi" name="tanggal_registrasi" value="{{ $admin->tanggal_registrasi }}" required>
+     </div>
+
         <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
     </form>
 @endsection
