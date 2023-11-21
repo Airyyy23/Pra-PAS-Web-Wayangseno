@@ -12,6 +12,9 @@
             <li class="nav-item">
                <a class="nav-link fs-5" href="/pelanggan/pelangganall">Pelanggan</a>
             </li>
+            <li class="nav-item">
+               <a class="nav-link fs-5" href="/admin/adminall">Admin</a>
+            </li>
          </ul>
       </div>
    </div>
