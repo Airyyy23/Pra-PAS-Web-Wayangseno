@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-   <h1>Data Barang</h1>
+   <h1>Data Pelanggan</h1>
    <table class="table table-info table-hover">
       <thead>
         <tr>
@@ -28,7 +28,7 @@
             <form action="{{ route('pelanggan.destroy', ['pelanggan' => $pelanggan->id]) }}" method="POST" style="display: inline;">
               @csrf
               @method('DELETE')
-              <button type="submit" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus barang ini?')">Delete</button>
+              <button type="submit" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Delete</button>
           </form>
         </td>
       </tr>
